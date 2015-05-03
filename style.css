@@ -42,3 +42,10 @@
 		text-decoration: none;
 		color: #2F2828;
 	}
+	.cover {
+		text-align: center;
+		padding-top: 15px;
+	}
+	.cover img {
+		width: 75%;
+	}
