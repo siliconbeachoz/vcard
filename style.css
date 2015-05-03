@@ -1,0 +1,44 @@
+	body {
+		text-align: center;
+		font-family: courier;
+		font-size: 3mm;
+	}
+	body.print {
+			width: 21.5cm;
+			height: 29.5cm;
+			border: 1px solid black;
+			margin: 0;
+			padding: 0;
+	}
+	section {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: auto;
+		text-align: left;
+		width: 10.5cm;
+		height: 6.5cm;
+		border: 10px solid #6BB5E3;
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+	body.print section {
+			float: left;
+			margin-bottom: 0;
+	}
+
+	.logo {
+		text-align: center;
+		padding-top: 5mm;
+	}
+	.logo img {
+		width: 80%;
+	}
+	.url {
+		text-align: center;
+		padding-top: 3mm;
+	}
+	.url a {
+		text-decoration: none;
+		color: #2F2828;
+	}
