@@ -49,3 +49,11 @@
 	.cover img {
 		width: 75%;
 	}
+	.git {
+		font-size: 0.75em;
+		position: absolute;
+		bottom: 5px;
+		color: #333333;
+		text-align: center;
+		width: 100%;
+	}
